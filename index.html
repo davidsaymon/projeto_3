@@ -1,0 +1,377 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Monkey Monkey SA</title> 
+</head>
+<body> 
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho"> 
+        <div class="container"> 
+
+            <h1 class="navbar-brand m-0 section-title">Monkey Monkey Clothes</h1> 
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+
+
+                <span class="navbar-toggler-icon"></span> 
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao"> 
+                <ul class="nav nav-pills d-block d-md-flex"> 
+                    <li class="nav-item fw-bold"> 
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i> 
+                            Sobre a loja
+                        </a> 
+                    </li> 
+                    <li class="nav-item fw-bold"> 
+                        <a href="#colecao" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i> 
+                            Novidades
+                        </a> 
+                    </li> 
+                    <li class="nav-item fw-bold"> 
+                        <a href="#catalogo" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i> 
+                            Nosso catálogo
+                        </a> 
+                    </li> 
+                    <li class="nav-item fw-bold"> 
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i> 
+                            Fale conosco
+                        </a> 
+                    </li> 
+                </ul> 
+            </nav> 
+        </div> 
+    </header> 
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="home-logo">  
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel"> 
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="/images/_slide/slide1.jpeg" alt="Foto do espaço interno"> 
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="3000"> 
+                        <img src="/images/_slide/slide5.jpeg" alt="Duas taças de vinho"> 
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="3000"> 
+                        <img src="/images/_slide/slide4.jpeg" alt="Mesa"> 
+                    </div> 
+    
+                </div> 
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev"> 
+                    <span class="carousel-control-prev-icon"></span> 
+                </button> 
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next"> 
+                    <span class="carousel-control-next-icon"></span> 
+                </button> 
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div> 
+            <div class="pt-5 pb-5" id="sobre-a-loja">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/images/_fachada/fachada6.jpeg" class="d-block w-100 rounded" alt="foto do espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p class="fw-bold">
+                                A Monkey Monkey SA é uma marca fundada em 2020, conhecida por sua moda urbana autêntica e vibrante. Seu icônico moletom amarelo, com um simpático macaco estampado, conquistou jovens descolados em todo o mundo. Além dos moletons, oferecemos bonés, óculos e exclusivos tênis Nike Air personalizados, refletindo nossa essência moderna e irreverente. Com três lojas físicas e uma forte presença online, nossa marca continua a crescer, atraindo uma comunidade apaixonada de fashionistas em busca de estilo e originalidade. Junte-se a nós e descubra o que há de mais autêntico na moda urbana contemporânea.</p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p class="fw-bold">Nosso espaço na Monkey Monkey SA é mais do que uma loja; é um refúgio para os amantes da moda. Localizado em ambientes acolhedores e contemporâneos, nossas lojas proporcionam uma experiência envolvente e única. Com uma decoração inspirada na cultura urbana, nossos clientes podem explorar uma variedade de produtos exclusivos, desde os icônicos moletons amarelos até os últimos lançamentos em acessórios. Visite-nos e mergulhe em um mundo de estilo e criatividade, projetado para inspirar e expressar o melhor da sua personalidade fashion.</p>
+                            <ul>
+                                <li class="fw-bold">LOJA 1 - Rua dos Macacos, 01, São Paulo, SP</li>
+                                <li class="fw-bold">LOJA 2 - 1656 Broadway, New York, NY 10019, Estados Unidos</li>
+                                <li class="fw-bold">LOJA 3 - Shopping Macacos Barra, 11, Rio de Janeiro, RJ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!---->
+        <section id="colecao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nova<span class="text-colored"> coleção</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="/images/_modelos/mk1.jpeg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Coleção Monkey Smile
+                        </h3>
+                        <p class="fw-bold">Apresentamos a coleção "Monkey Smile", onde cada peça transborda alegria e estilo. Descubra a moda que vai colocar um sorriso no seu rosto!.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/_modelos/mk6.jpeg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Coleção Monkey Selva
+                        </h3>
+                        <p class="fw-bold">Explore a essência selvagem com nossa coleção "Monkey Selva". Com estampas icônicas de macacos, esta linha é ideal para quem busca um estilo distinto e sofisticado. Encontre sua peça exclusiva com a Monkey Monkey!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/_modelos/monkey3.jpeg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Coleção Monkey Street
+                        </h3>
+                        <p class="fw-bold">Explore o espírito urbano com nossa coleção "Monkey Street". Com macacos cheios de atitude, estes moletons são um sucesso entre skatistas e jovens descolados. Encontre o seu estilo na rua com a Monkey Monkey!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalogo" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">catálogo</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#moletom" class="fw-bold text-start nav-link text-colored active">Agasalhos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bone" class="fw-bold text-start nav-link text-colored">Bones</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tenis" class="fw-bold text-start nav-link text-colored">Tenis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oculos" class="fw-bold text-start nav-link text-colored">Oculos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="moletom">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_moletons/mk11.jpeg" alt="moletom smile">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom Monkey Smile</h5>
+                                        <p>Uma peça única e descontraída que vai conquistar todos os olhares.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_moletons/mk12.jpeg" alt="moletom monkey smile">
+                                        <h5 class="text-colored fw-bold mt-2">Moletom Monkey Smile </h5>
+                                        <p>Uma peça única e descontraída que vai conquistar todos os olhares.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_moletons/mk13.jpeg" alt="moletom steet">
+                                        <h5 class="text-colored fw-bold mt-2">Agasalho Monkey Street</h5>
+                                        <p>Despojado e autêntico, ideal para quem vive intensamente o estilo streetwear.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_moletons/mk14.jpeg" alt="moletom nerd">
+                                        <h5 class="text-colored fw-bold mt-2">Agasalho Monkey Nerd</h5>
+                                        <p> Destaque-se com o Agasalho Monkey Nerd. Para os amantes de cultura pop e estilo único, essa peça é uma escolha imperdível.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_moletons/mk15.jpeg" alt="moletom street">
+                                        <h5 class="text-colored fw-bold mt-2">Agasalho Monkey Street</h5>
+                                        <p>Um clássico do streetwear, perfeito para quem busca originalidade e conforto.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_moletons/mk16.jpeg" alt="moletom monkey street">
+                                        <h5 class="text-colored fw-bold mt-2">Agasalho Monkey Street</h5>
+                                        <p>Explore seu estilo urbano com o Agasalho Monkey Street.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bone">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_bone/bone_mk.jpeg" alt="Bone street">
+                                        <h5 class="text-colored fw-bold mt-2">Bones Monkey Street</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_bone/bone_mk2.jpeg" alt="bone smile">
+                                        <h5 class="text-colored fw-bold mt-2">Bones Monkey smile</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>,
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tenis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_tenis/nike7.jpeg" alt="tenis monkey yellow">
+                                        <h5 class="text-colored fw-bold mt-2">Nike Monkey Yellow</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_tenis/nike1.jpeg" alt="tenis mk">
+                                        <h5 class="text-colored fw-bold mt-2">Nike MK </h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_tenis/nike2.jpeg" alt="tenis street">
+                                        <h5 class="text-colored fw-bold mt-2">Nike Monkey Street</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_tenis/nike3.jpeg" alt="tenis smile">
+                                        <h5 class="text-colored fw-bold mt-2">Nike Mk smile</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_tenis/nike4.jpeg" alt="tenis street">
+                                        <h5 class="text-colored fw-bold mt-2">Tenis Monkey Street 2</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_tenis/nike5.jpeg" alt="tenis wold">
+                                        <h5 class="text-colored fw-bold mt-2">Nike Monkey wold</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_tenis/nike6.jpeg" alt="tenis smile mk">
+                                        <h5 class="text-colored fw-bold mt-2">Nike Smile Monkey</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="oculos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_Oculos/oculo2.jpeg" alt="oculos monkey california">
+                                        <h5 class="text-colored fw-bold mt-2">Óculos Monkey California</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_Oculos/oculos1.jpeg" alt="oculos monkey have">
+                                        <h5 class="text-colored fw-bold mt-2">Óculos Have 2</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_Oculos/oculos5.jpeg" alt="oculos monkey copacabana">
+                                        <h5 class="text-colored fw-bold mt-2">Óculos Copacabana</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_Oculos/oculos_3.jpeg" alt="oculos monkey alok">
+                                        <h5 class="text-colored fw-bold mt-2">Óculos Alok</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_Oculos/oculos_demo.jpeg" alt="oculos colecionavel">
+                                        <h5 class="text-colored fw-bold mt-2">Óculos Love Monkey Colecionável</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/_catalogo/_Oculos/oculos_demo2.jpeg" alt="Oculos verao">
+                                        <h5 class="text-colored fw-bold mt-2">Óculos Summer</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 md-5">
+                        <form id="contactForm">
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="phone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="phone" name="phone" class="form-control">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class="section-title">Rua dos macacos nº 01 <br/>
+                                CEP: 12345-678 <br/> 
+                                Bairro das ruas alagadas - São Paulo - SP
+                            </p>
+                            <p class="section-title">
+                                Telefone: (11) 1234-5678 <br>
+                                E-mail: contato@monkeymonkey.com.br <br>
+                                Horário de funcionamento: <br>
+                                Segunda a sexta: 09h às 19h <br>
+                                Sábado: 08h às 15h <br>
+                            </p>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="/main.js"></script>
+
+    <footer class="bg-dark text-white pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Monkey Monkey Clothes</h3>
+                    <p>&copy; 2024 - Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body> 
+</html> 

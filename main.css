@@ -1,0 +1,108 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar { 
+    background-color: #ffd738; 
+}
+
+#cabecalho .nav .nav-link.active { 
+    background-color: #fff; 
+    color: #e6b800; 
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover, 
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.navbar-brand img {
+    width: 80px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 600px; 
+    overflow: hidden; 
+}
+
+
+#sobre-a-loja, #cardapio {
+    background-color: #fff9e3;
+}
+
+.text-colored {
+    color: #e6b800;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #e6b800;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #e6b800;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 5px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e6b800; 
+    border-radius: 20px; 
+}
+
+
+* {
+    scrollbar-width: thin; 
+    scrollbar-color: #e6b800 #f1f1f1; 
+}
+
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    width: 5px; /
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+    background-color: #e6b800; 
+}
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
